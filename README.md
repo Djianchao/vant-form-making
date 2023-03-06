@@ -1,24 +1,12 @@
 # vant-form-making
 
-## Project setup
-```
-npm install
-```
+## 基本介绍
+基于vuedraggable, evant, elementUI实现的简易可视化布局, 支持一键显示vant组件代码，
+省去开发中多余 cv 操作，所有的组件代码都是vant文档中第一部分的代码
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 问题
+目前支持的可拖拽组件比较少，实现的思路不是很难，只是很繁琐， 详情可见note.md
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 写此项目的原因
+1. 学习vuedraggable，基本上看到的很多源码中实现的拖拽效果都是基于vuedraggable，包括一些可视化店铺装修，可视化表单制作
+2. 在开发中总是会根据页面确认需要哪些组件，每次都要去拷贝这些组件的初始代码，有了该项目后，直接拖拽要用到的组件 --> 显示代码 --> 拷贝
